@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+.parent{
+    background:rgb(4, 94, 94);
+}
+.imfura{
+    background: rgb(121, 165, 165);
+}
+.ubuheta{
+    background: rgb(7, 204, 204);
+}
+.bucura{
+    background: rgb(1, 70, 70);
+    width: 500px;
+    height: 400px;
+    border-left: 20;
+}

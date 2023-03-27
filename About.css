@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.menu{
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.menu ul li {
+    /* padding: 20px; */
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: monospace;
+  
+}
+.menu ul li a:hover{
+    color: orange;
+    background: black;
+    border-radius: 10px;
+}
+.main{
+    padding: 20px;
+
+}
+.main img{
+    float: left;
+    width:600px;
+    height: 900px;
+    border-radius: 50%;
+}
+.About-text{
+    float:right;
+    padding-right: 30px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background: orange;
+    display:inline-block;
+    border-radius: 20px;
+    flex-direction: wrap;
+}
+
+button a{
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}

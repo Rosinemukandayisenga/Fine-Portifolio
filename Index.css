@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: skyblue; */
+    background-image:url(./images/moi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+h1{
+    font-family: monospace;
+    font-size: 40px;
+    margin-left: 5%;
+    padding-top: 10px;
+    color: white;
+}
+span{
+    color: orange;
+    font-family: monospace;
+}
+.menu{
+    float: right;
+    margin-right: 30px;
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.menu ul li {
+    /* padding: 20px; */
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: monospace;
+  
+}
+.menu ul li a:hover{
+    color: orange;
+    background: black;
+    border-radius: 10px;
+}
+h4{
+    margin-left: 25%;
+    font-size: 18px;
+    margin-top: 15%;
+}
+span h4{
+    color: orange;
+}
+p{
+    color: white;
+    font-size: 18px;
+    font-family: monospace;
+    text-align: center;
+    letter-spacing: 1px;
+}
+button{
+    color: white;
+    background: orange;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+@media (max-width:800px) {
+    .menu{
+    width: 200px;
+   }
+   button{
+    width: 150px;
+    height: 50px;
+    margin:autos;
+   }
+   ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    top: 80px;
+    left:-100%;
+    text-align: center;
+   }
+  
+   .menu ul li a{
+    font-size: 10px;
+   }
+
+.menu{
+display: block;
+}
+p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+
+
+}

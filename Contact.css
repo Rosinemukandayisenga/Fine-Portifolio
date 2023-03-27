@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: monospace;
+    list-style: none;
+}
+body{
+    background:rgb(189, 202, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 800px;
+    margin:50px;
+    background:grey;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .leftcolumn{
+    padding: 40px;
+    background: orange;
+    position: relative;
+}
+.container .rightcolumn{
+    padding: 40px;
+    background: rgb(150, 132, 100);
+    position: relative;  
+}
+.talktome{
+padding: 20px;
+}
+.talktome h4{
+    color: black;
+    font-size: 20px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    color:black;
+    background: orange;
+    border-radius: 50px;
+    margin: 20px;
+}
+button a{
+    list-style: none;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background:black;
+    border-radius: 50%;
+
+}
+.circle h2{
+    position: relative;
+    color: white;
+    font-size: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
